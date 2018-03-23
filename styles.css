@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+header {
+	font-family: 'Lora', serif;
+	background-image: url(scott-webb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 35%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+}
+
+.summary, .preamble, .main, .sidebar,
+ .extra1, .extra4 {
+
+	width: 65%;
+	position: relative;
+	left: 35%;
+	box-sizing: border-box;
+	padding: 0 70px 0 70px;
+
+}
+
+h1, h2 {
+	font-family: 'Lora', serif;
+	color:white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 20px;
+}
+
+h3 { 
+	font-family: 'Lora', serif;
+	text-align: center;
+	border-top: 1px solid #D0D0D0;
+	padding-top: 40px;
+	font-size: 30px;
+ }
+
+ p {
+	padding-bottom: 20px;
+	font-family: 'Lora', serif;
+}
+ li {
+ 	box-sizing: border-box;
+	margin: 5px; 	
+ 	list-style: none;
+ 	text-decoration: none;
+ 	width: 30%;
+ 	float: left;
+ }
+
+
+ .design-archives {
+ 	clear:both;
+ }
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+
+ul li {
+	margin: 5px;
+	color: black;
+	box-sizing: border-box;
+	background: whitesmoke;
+	padding: 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li:hover {
+	background-color: grey;
+	
+}
+
+nav {
+	text-align: center;
+}
+
+ h3.resources {
+ 	border-top: 1px solid #D0D0D0;
+ 	margin-top: 100px;
+ 	left: 0;
+ }
+
+
+.main:before{
+	
+	content: url("ilya.jpg");
+	box-sizing: border-box;
+	padding-left: 10%;
+
+}
+
+.participation:before {
+
+	content: url("glenn-carstens.jpg");
+	box-sizing: border-box;
+	padding-left: 10%;
+}
+
+.benefits:before {
+
+	content: url("rawpixel.jpg");
+	box-sizing: border-box;
+	padding-left: 10%;
+}
+
+.requirements:before {
+
+	content: url("rawpixel2.jpg");
+	box-sizing: border-box;
+	padding-left: 10%;
+}
+
+ .design-selection nav ul li:last-child{
+ 	margin-bottom: 50px;
+ }
+
+
+ .zen-resources {
+ 	text-align: center;
+ }
+
+ .zen-resources ul li:last-child{
+ 	margin-bottom: 50px;
+ }
+
+
